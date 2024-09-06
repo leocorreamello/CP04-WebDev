@@ -10,6 +10,8 @@ body {
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
   font-style: normal;
+  background-color: #fff;
+  color: #333;
 }
 
 .navbar {
@@ -134,31 +136,6 @@ body {
   height: auto;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #fff;
-  color: #333333;
-}
-
-.contact-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 50px;
-}
-
-.left-side {
-  max-width: 40%;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: #fff;
-  color: #333;
-}
-
 .contact-container {
   display: flex;
   justify-content: space-between;
@@ -247,4 +224,96 @@ h2 {
       width: 100%;
       margin-bottom: 30px;
   }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #fff;
+}
+
+.text-box {
+  max-width: 50%;
+}
+
+.text-box h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.text-box p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+.image-box img {
+  max-width: 500px;
+  border-radius: 15px;
+}
+
+.platforms {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  gap: 20px;
+  background-color: #fff;
+}
+
+.platform {
+  width: 22%;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.platform h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.platform h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.platform p {
+  font-size: 16px;
+}
+
+/* Individual platform colors */
+.youtube {
+  background-color: #f8d9d6;
+  color: #000;
+}
+
+.tiktok {
+  background-color: #fffabb;
+  color: #000;
+}
+
+.facebook {
+  background-color: #d9f0ef;
+  color: #000;
+}
+
+.instagram {
+  background-color: #d6e4ff;
+  color: #000;
 }
